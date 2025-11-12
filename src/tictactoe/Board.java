@@ -15,22 +15,22 @@ public class Board {
     /**
      * @brief Costante usata per indicare che una cella è vuota.
      */
-    public static final int CELL_NONE=0;
+    public static final int CELL_NONE = 0;
     /**
      * @brief Costante usata per indicare che una cella contiene
      *        il mark X.
      */
-    public static final int CELL_X=1;
+    public static final int CELL_X = 1;
     /**
      * @brief Costante usata per indicare che una cella contiene il
      *        mark O.
      */
-    public static final int CELL_O=2;
+    public static final int CELL_O = 2;
     
     /**
      * @brief Dimensione della scacchiera (numero di celle)
      */
-    public static final int SIZE=9;
+    public static final int SIZE = 9;
     
     private int cell[];
     private int next;
