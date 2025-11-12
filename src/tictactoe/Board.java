@@ -43,7 +43,7 @@ public class Board {
      * La scacchiera è vuota.
      */
     public Board() {
-        cell=new int[SIZE +11];
+        cell=new int[SIZE +1];
         for(int i=0; i<SIZE; i++)
             cell[i]=CELL_NONE;
         next=CELL_X;
@@ -60,7 +60,7 @@ public class Board {
     public Board(Board other) {
         cell=new int[SIZE];
         for(int i=0; i<SIZE; i++)
-            cell[i]=other.cell[i + 1];
+            cell[i]=other.cell[i];
         next=other.next;
         ended=other.ended;
         winner=other.winner;
