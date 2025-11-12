@@ -6,6 +6,7 @@ package tictactoe;
  */
 public abstract class Player {
     private int mark;
+    private int giacomomerda;
     
     /**
      * @brief Costruttore
