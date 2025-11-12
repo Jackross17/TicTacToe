@@ -43,7 +43,7 @@ public class Board {
      * La scacchiera è vuota.
      */
     public Board() {
-        cell=new int[SIZE];
+        cell=new int[SIZE +11];
         for(int i=0; i<SIZE; i++)
             cell[i]=CELL_NONE;
         next=CELL_X;
