@@ -60,7 +60,7 @@ public class Board {
     public Board(Board other) {
         cell=new int[SIZE];
         for(int i=0; i<SIZE; i++)
-            cell[i]=other.cell[i];
+            cell[i]=other.cell[i + 1];
         next=other.next;
         ended=other.ended;
         winner=other.winner;
